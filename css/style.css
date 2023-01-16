@@ -49,7 +49,6 @@ body {
 .flexbox-images {
   width: 100%;
   height: 25rem;
-  /* border: 3px solid #000; */
 }
 
 @media (max-width: 780px) {
