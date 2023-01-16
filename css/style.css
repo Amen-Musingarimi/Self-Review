@@ -1,0 +1,64 @@
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f0e8e8;
+  font-size: 2rem;
+}
+
+#navbar {
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  width: 100%;
+  background: rgb(168, 84, 84);
+  height: 4rem;
+  top: 0;
+}
+
+#navbar a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#welcome-section {
+  text-align: center;
+  margin-top: 6em;
+  margin-bottom: 2em;
+  height: 100vh;
+}
+
+.flexbox-container {
+  display: flex;
+  margin-top: 2rem;
+  /* width: 100%; */
+  justify-content: space-around;
+  /* flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row; */
+}
+
+.flexbox-card {
+  width: 400px;
+  margin: 10px;
+  border: solid black;
+  background-color: white;
+}
+
+.flexbox-images {
+  width: 100%;
+  height: 25rem;
+  /* border: 3px solid #000; */
+}
+
+@media (max-width: 780px) {
+  body {
+    background-color: lightblue;
+    font-size: 1.5rem;
+  }
+}
